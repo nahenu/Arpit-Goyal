@@ -1,0 +1,120 @@
+.detail{
+ 
+    width: calc(100vw - 7%);
+    
+    margin-left: 20px;
+    height: calc(100vh - 80px);
+    display: flex;
+    .profile{
+    height: 140px;
+    flex: 4.5;
+    border-radius:15px ;
+    display: flex; margin-right: 20px;
+    -webKit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+  .profiledetail{
+   height: 7.5rem;
+   flex: 1.2;
+   box-shadow: -1px 1px 19px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 19px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 19px -1px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   border-radius: 15px;
+   background-color: rgb(40, 6, 67);
+   z-index: 5;
+   padding: 10px;
+   .profileimage{
+display: flex;
+gap: 25px;
+margin-left: 7px;
+align-items: center;
+
+img{
+    height: 50px;
+}
+.name{
+    color: white;
+   
+
+    p{
+        font-size: 15px;
+    }
+   
+}
+   }
+   .profiledetailtype{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    color: white;
+  justify-content: center;
+  .nameType{
+    p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+  }
+   }
+  }
+  .profileinformation{
+height: 6rem ;
+flex: 3.2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: white;
+font-family: 'Rokkitt', serif;
+padding: 20px;
+margin-right:25px;
+margin-left: -10px;
+
+.topprofileinformation{
+    display: flex;
+  margin-left: 35px;
+    gap: 30px;
+    h4{
+        color: gray;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+}
+.bottomprofileinformation{
+    display: flex;
+    margin-left: 35px;
+    gap: 30px;
+    margin-top: 20px;
+    h4{
+        color: gray;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 15px;
+        
+    }
+}
+  }
+    }
+    .information{
+        -webKit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+        box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+flex: 2;
+background-color: white;
+padding:0px 30px;
+.calendar{
+    
+ display: flex;
+
+justify-content: center;
+img{
+    height: 20rem;
+}
+}
+
+
+    }
+}
